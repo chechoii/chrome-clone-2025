@@ -1,3 +1,41 @@
 .hidden {
   display: none;
 }
+
+body {
+  background-color: rgb(134, 181, 246);
+  font-family: "Montserrat", sans-serif;
+}
+
+#login-form {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+#login-form input {
+  border-style: none;
+  border-radius: 20px;
+  border-color: rgb(84, 143, 227);
+  border-style: dashed;
+  font-size: 20px;
+  background-color: aliceblue;
+}
+
+#login-form input:first-child {
+  margin-right: 15px;
+}
+
+#login-form input:last-child {
+  color: darkblue;
+}
+
+#login-form input::placeholder {
+  opacity: 0.5;
+  color: darkblue;
+}
+
+h1 {
+  color: aliceblue;
+  text-align: center;
+}
